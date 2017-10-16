@@ -1,0 +1,168 @@
+/* General style */
+
+body {
+  background-color: white;
+  color: #222;
+  font-family: arial,sans-serif;
+}
+
+/* Top menu */
+
+.topmenu {
+  width: 250px;
+  min-width: 240px;
+  position: absolute;
+  right: 0;
+  z-index: 100;
+  padding: 20px 10px 0 0;
+}
+
+.topmenu a {
+  color: #404040;
+  text-decoration: none;
+  font-size: 13px;
+  margin: 0 5px;
+  vertical-align: top;
+}
+
+#icons {
+  position: relative;
+  right: 2px;
+  top: -12px;
+}
+
+.topmenu a:hover {
+  text-decoration: underline;
+}
+
+/* Logo */
+
+.logo {
+  display: block;
+  position: relative;
+  top: 200px;
+  margin: auto;
+  width: 292px;
+  padding-left: 20px;
+}
+
+.spain {
+  color: #4285f4;
+  font-size: 16px;
+  font-family: roboto-regular, arial, sans-serif;
+  display: inline;
+  position: absolute;
+  left: 230px;
+  top:70px;
+  padding: 5px;
+}
+
+/* Search */
+
+.search {
+  position:relative;
+  top: 220px;
+  display: block;
+  margin: auto;
+  width: 570px;
+}
+
+input {
+  width: 100%;
+  height: 45px;
+  padding: 0 10px;
+  margin-left: 0px;
+  font-size: 16px;
+  line-height: 34px;
+  border: 1px solid #e2dddd;
+  border-radius: 2px;
+  box-shadow: 0px 3px 3px 0px #d1d1d1;
+}
+
+.button {
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 30px;
+  left: 55px;
+  width: 70%;
+}
+
+button {
+  width: 35%;
+  background-color: #f2f2f2;
+  height: 36px;
+  line-height: 27px;
+  margin: 0 5px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #757575;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+}
+
+button:hover {
+  border: 1px solid #bbb;
+}
+
+.languages {
+  font-size: small;
+  display: block;
+  position: relative;
+  top: 60px;
+  left: 18px;
+  width: 340px;
+  margin: auto;
+  word-spacing: 3px;
+}
+
+.languages a {
+  text-decoration: none;
+  color: #1a0dab;
+}
+
+.languages a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 45px;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: #666;
+  font-size: small;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footer a {
+  color: #666;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-left {
+  display: inline-block;
+  float: left;
+  padding: 15px 30px;
+}
+
+.footer-left a {
+  margin-right: 20px;
+}
+
+.footer-right {
+  display: inline-block;
+  float: right;
+  padding: 15px 30px;
+}
+
+.footer-right a {
+  margin-left: 20px;
+}
